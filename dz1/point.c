@@ -4,7 +4,7 @@ struct point {
 	int x,y;
 };
 
-void main() {
+int main() {
     struct point a, b, c, d;
 	int point1, point2, point3;
 	scanf("%d %d", &a.x, &a.y);

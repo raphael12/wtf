@@ -5,7 +5,6 @@ int main() {
 	scanf("%d %d", &i, &j);
 	int mat[i][j];
 	int k, m;
-	int copy;
 	for(k=0;k<i;k++) {
 		for(m=0; m<j; m++){
 			scanf("%d", &mat[k][m]);
