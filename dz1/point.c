@@ -15,7 +15,7 @@ int main() {
 	point2=(b.x-in.x)*(c.y-b.y)-(c.x-b.x)*(b.y-in.y);
 	point3=(c.x-in.x)*(a.y-c.y)-(a.x-c.x)*(c.y-in.y);
 	
-	if((point1 > 0 && point2 > 0 && point3 > 0) || (point1 < 0 && point2 < 0 && point3 < 0)) {
+	if((point1 >= 0 && point2 >= 0 && point3 >= 0) || (point1 =< 0 && point2 =< 0 && point3 =< 0)) {
 		printf("Yes\n");
 	} else {
 		printf("No\n");
